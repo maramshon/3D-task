@@ -1,5 +1,7 @@
 # 3D-task
-My first task in WebGL &amp; Three.js
+My first task in WebGL , Three.js  &amp; jQuery
+
+
 The cube moves (one step & one face) on keys press:-
 
 
