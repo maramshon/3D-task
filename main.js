@@ -84,19 +84,19 @@ $(function(){
 	// var clock = new THREE.Clock;
 	$('body').keydown(function(event) {
 		if(event.which === 83){
-			cube.position.z += 2;
+			cube.position.z += 4;
 			cube.rotation.x -= Math.PI*90/180;	
 		}
 		if(event.which === 87){
-			cube.position.z -= 2;
+			cube.position.z -= 4;
 			cube.rotation.x += Math.PI*90/180;	
 		}
 		if(event.which === 65){
-			cube.position.x -= 2;
+			cube.position.x -= 6;
 			cube.rotation.y += Math.PI*90/180;	
 		}
 		if(event.which === 68){
-			cube.position.x += 2;
+			cube.position.x += 6;
 			cube.rotation.y -= Math.PI*90/180;	
 		}
 	});
