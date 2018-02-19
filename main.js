@@ -75,11 +75,11 @@ $('body').keydown(function(event) {
 	}
 	if(event.which === 65){
 		cube.position.x -= 2;
-		cube.rotation.x -= Math.PI*90/180;	
+		cube.rotation.y += Math.PI*90/180;	
 	}
 	if(event.which === 68){
 		cube.position.x += 2;
-		cube.rotation.x += Math.PI*90/180;	
+		cube.rotation.y -= Math.PI*90/180;	
 	}
 });
 function render() {
