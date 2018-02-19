@@ -1,6 +1,9 @@
 # 3D-task
 My first task in WebGL &amp; Three.js
 The cube moves (one step & one face) on keys press:-
+
+
+
   -Press D to move right
   -Press A to move left-Press 
   -W to move up (toward the screen  if 3D)
