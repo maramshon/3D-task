@@ -1,0 +1,15 @@
+RBK Task
+ - WebGL & Three.js
+
+ 	* TASK:
+ 		Design a game in WebGL and Three.js that has a cube moving on keyboardkeys clicks.
+
+ 	* MVP:
+	 	-Design a Cube (6 faces, 6 colors/shades)
+	 	-The cube should be sitting on a black floor/table with three white wallssurrounded (feel free to change the colors)
+	 	-The cube moves (one step / one face) on keys press:
+		 	-Press D to move right
+		 	-Press A to move left
+		 	-Press W to move up (toward the screen  if 3D)
+		 	-Press S to move down (toward the player if 3D)
+ 	
